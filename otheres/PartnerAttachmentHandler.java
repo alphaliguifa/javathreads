@@ -33,6 +33,7 @@ public class PartnerAttachmentHandler extends ICRMBaseHandler {
 
     public static final String ERROR_MSG = "ERROR_MSG";
 
+    // FILE_UPLOAD_PATH=/tmp
     private static final String UPLOAD_FOLDER = Config.getFileUploadPath();
 
     private static final int MAX_FILE_SIZE = ICRMConstant.UPLOAD_FILE_MAX_SIZE;//10 *
@@ -40,7 +41,7 @@ public class PartnerAttachmentHandler extends ICRMBaseHandler {
     // 1024
     // *
     // 1024;
-
+    // ICRM.UPLOAD_FILE.MAX_FILE=10
     private static final int UPLOAD_FILE = ICRMConstant.UPLOAD_FILE;
 
     //    private IPartnerAttachmentBSV attachmentBS;
